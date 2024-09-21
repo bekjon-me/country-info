@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+  import CountriesList from "@/components/CountriesList.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="bg-gray-100 p-6">
+    <CountriesList />
   </main>
 </template>
